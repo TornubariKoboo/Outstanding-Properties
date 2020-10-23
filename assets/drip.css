@@ -10,6 +10,9 @@
       width: 25%
       
   }
+  #navigation,.navbar .navbar-default{
+    background-image: url("../img/flower.jpg")
+  }
   #about-us{
       font-family: Georgia, 'Times New Roman', Times, serif;
       float: left;
