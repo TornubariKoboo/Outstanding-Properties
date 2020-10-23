@@ -1,3 +1,33 @@
+.navbar {
+  background-image: url(https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1700);
+  background-position: center;
+  min-height: 500px;
+  color: white;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+  margin: -250px 0 0 0;
+}
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+  margin: -420px 0 0 0;
+ 
+}
+#nav-outstanding{
+  color:rgba(255,255,255,.5);
+}
+.form-inline{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+  vertical-align: top;
+  flex-flow: row nowrap;
+}
 
  #outstandingP {
     color: white;
@@ -78,4 +108,4 @@
     button:hover, a:hover {
       opacity: 0.7;
     }
-    
+     

@@ -7,62 +7,51 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/drip.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
- 
- <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-  <li class="nav-item active">
-    <a id="number" href="#"
-    > 404-936 - 9594 <span class="phone-number"></span></a
-  > 
-    <a id="outstandingP" href="#">Outstanding Properties</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarText"
-      aria-controls="navbarText"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-          <a id="about-us" href="#"
-            >About Us <span class="sr-only"></span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a id="properties" href="#">Available Properties</a>
-        </li>
-      </ul>
-      <nav class="navbar navbar-light bg-dark "> 
-        <form class="form-inline bg-dark">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder=" City, State, School, Agent, Zip"
-            aria-label="Search"
-          /> 
-          <button  id = "searchButton" class="btn btn-outline-success bg-dark " type="submit"> 
-           Search
-          </button>
-        </form>
-      </nav>
-    </div>
-  </nav>  
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="assets/drip.css" />
   <body>
     <!-- Add icon library -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand" id="nav-outstanding" href="#">Outstanding Properties</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Properties Near You
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="City,State or Address" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     <p class="real-estate-pic" id="realEstateNeeds"> 
         Find All Your Real Estate
 
