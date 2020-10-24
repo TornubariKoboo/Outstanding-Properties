@@ -3,6 +3,7 @@
   background-position: center;
   min-height: 500px;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar-nav > li > a {
@@ -26,7 +27,11 @@
   padding-bottom: 0px;
   line-height: 80px;
   vertical-align: top;
-  flex-flow: row nowrap;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  z-index: 1030;
 }
 
  #outstandingP {
