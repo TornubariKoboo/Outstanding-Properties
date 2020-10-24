@@ -5,6 +5,16 @@
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#realEstateNeeds{
+  float: right;
+}
+
+.real-estate-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 
 .navbar-nav > li > a {
   padding-top: 0px;
