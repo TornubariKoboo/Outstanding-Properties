@@ -1,5 +1,6 @@
-var realEstateImg =
-"https://swall.teahub.io/photos/small/1-17152_dream-house-wallpaper-house.jpg"
-setBgImg(realEstateImg);
+$(document).ready(function () {
+var estateIMG  = "hhttps://www.quickenloans.com/blog/wp-content/uploads/2017/02/GrayHouse-2.jpg";
+});
 
-$("#searchButton").click(function () {});
+
+    
