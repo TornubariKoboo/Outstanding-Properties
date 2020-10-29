@@ -1,3 +1,16 @@
+/* this is for example html */ 
+.container{
+  margin-top: 20px;
+  background-color: white;
+  padding: 40px;
+}
+body {
+  background-color: rgb(224, 218, 218);
+}
+
+
+
+/* this is for index html */ 
 .navbar {
   background-image: url(https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1700);
   background-position: center;
@@ -16,7 +29,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 400px;
+  height: 250px;
 }
 
 .navbar-nav > li > a {
