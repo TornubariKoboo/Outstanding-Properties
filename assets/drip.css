@@ -5,14 +5,12 @@
   padding: 40px;
 }
 body {
-  background-color: rgb(224, 218, 218);
+  background-color: rgb(219, 213, 213);
 }
-
-
 
 /* this is for index html */ 
 .navbar {
-  background-image: url(https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1700);
+  background-image: url(https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1700); 
   background-position: center;
   min-height: 500px;
   color: white;
